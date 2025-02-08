@@ -5,7 +5,7 @@
     font-style: normal;
 }
 
-/* Apply the font */
+/* General Styles */
 body {
     font-family: 'Xoxotype', sans-serif;
     background-color: #ffebef;
@@ -13,12 +13,39 @@ body {
     padding: 50px;
 }
 
+/* Header */
 header h1 {
     font-size: 48px;
     color: #e6005c;
 }
 
+/* Paragraph */
 main p {
     font-size: 24px;
     color: #333;
+}
+
+/* Button Styling */
+button {
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #e6005c;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #c4004a;
+}
+
+/* Hidden Message */
+.hidden {
+    display: none;
+    font-size: 24px;
+    color: #ff4081;
+    margin-top: 20px;
 }
